@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SendHeLLo" />
+        <module name="ReceiveHello" />
+        <module name="EurekaHello" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="EurekaHello" target="16" />
+      <module name="ReceiveHello" target="16" />
+      <module name="SendHello" target="17" />
+      <module name="SendHeLLo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EurekaHello" options="-parameters" />
+      <module name="ReceiveHello" options="-parameters" />
+      <module name="SendHeLLo" options="-parameters" />
+      <module name="SendHello" options="-parameters" />
+    </option>
+  </component>
+</project>

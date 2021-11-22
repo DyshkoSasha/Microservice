@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EurekaHello/EurekaHello.iml" filepath="$PROJECT_DIR$/EurekaHello/EurekaHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservise-Example.iml" filepath="$PROJECT_DIR$/.idea/Microservise-Example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReceiveHello/ReceiveHello.iml" filepath="$PROJECT_DIR$/ReceiveHello/ReceiveHello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SendHeLLo/SendHeLLo.iml" filepath="$PROJECT_DIR$/SendHeLLo/SendHeLLo.iml" />
+    </modules>
+  </component>
+</project>

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @EnableRabbit
-@Component
+@Component//todo что это???
 @RequiredArgsConstructor
 @RestController
 public class HelloController {
@@ -16,7 +16,7 @@ public class HelloController {
     private final HelloService helloService;
 
     @GetMapping("/")
-    String getCount(){
+    String getCount(){//todo где модификатор???
         return "С Вами поздоровались " + helloService.getCount() + " раз";
     }
 }

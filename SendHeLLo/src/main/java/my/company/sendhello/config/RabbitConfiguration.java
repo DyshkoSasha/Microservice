@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitConfiguration {
     @Bean
     public ConnectionFactory connectionFactory() {
-        return new CachingConnectionFactory("localhost");
+        return new CachingConnectionFactory("localhost");//todo в ямл
     }
 
     @Bean
@@ -28,7 +28,7 @@ public class RabbitConfiguration {
 
     @Bean
     public Queue myQueue1() {
-        return new Queue("queue1");
+        return new Queue("queue1"); //todo в ямл
     }
 
 }

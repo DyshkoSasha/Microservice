@@ -5,7 +5,7 @@ import my.company.receivehello.model.Hello;
 import my.company.receivehello.repository.HelloRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
+@Repository //todo WHAT???
 @RequiredArgsConstructor
 public class HelloServiceImpl implements HelloService {
 

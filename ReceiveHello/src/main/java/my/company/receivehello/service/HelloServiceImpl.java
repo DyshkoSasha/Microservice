@@ -1,11 +1,12 @@
 package my.company.receivehello.service;
 
+
 import lombok.RequiredArgsConstructor;
 import my.company.receivehello.model.Hello;
 import my.company.receivehello.repository.HelloRepository;
-import org.springframework.stereotype.Repository;
+import org.springframework.stereotype.Service;
 
-@Repository //todo WHAT???
+@Service
 @RequiredArgsConstructor
 public class HelloServiceImpl implements HelloService {
 

@@ -4,4 +4,8 @@ server:
 spring:
   application:
     name: send-hello-service
+host:
+  name: localhost
 
+queue:
+  name: queue1

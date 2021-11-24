@@ -4,7 +4,6 @@
     <file url="file://$PROJECT_DIR$/EurekaHello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ReceiveHello/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SendHeLLo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SendHello/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SendHello/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ZuulHello/src/main/java" charset="UTF-8" />
   </component>
 </project>

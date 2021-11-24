@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/ReceiveHello/pom.xml" />
         <option value="$PROJECT_DIR$/EurekaHello/pom.xml" />
         <option value="$PROJECT_DIR$/SendHeLLo/pom.xml" />
+        <option value="$PROJECT_DIR$/ZuulHello/pom.xml" />
       </list>
     </option>
   </component>

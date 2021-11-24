@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ZuulHello" />
         <module name="SendHeLLo" />
-        <module name="ReceiveHello" />
         <module name="EurekaHello" />
+        <module name="ReceiveHello" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17">
@@ -17,6 +18,7 @@
       <module name="ReceiveHello" target="16" />
       <module name="SendHello" target="17" />
       <module name="SendHeLLo" target="17" />
+      <module name="ZuulHello" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -25,6 +27,7 @@
       <module name="ReceiveHello" options="-parameters" />
       <module name="SendHeLLo" options="-parameters" />
       <module name="SendHello" options="-parameters" />
+      <module name="ZuulHello" options="-parameters" />
     </option>
   </component>
 </project>

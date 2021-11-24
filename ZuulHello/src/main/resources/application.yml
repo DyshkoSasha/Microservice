@@ -1,1 +1,19 @@
+server:
+  port: 8080
 
+spring:
+  application:
+    name: zuul-hello-service
+
+zuul:
+
+  routes:
+    receive-hello-service:
+      path: /count/**
+      service-id: receive-hello-service
+      stripPrefix: true
+
+    send-hello-service:
+      path: /hello/**
+      service-id: send-hello-service
+      stripPrefix: true
